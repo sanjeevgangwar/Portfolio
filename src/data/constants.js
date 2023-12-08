@@ -216,7 +216,7 @@ export const projects = [
     //   "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
     tags: ["JavaScrip", "HTML", "Css", "JavaScript Libraries"],
     category: "web app",
-    // github: "https://github.com/rishavchanda/Buckoid-Android-App",
+    github: "https://github.com/sanjeevgangwar/Portfolio",
     // webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
   },
 
@@ -258,7 +258,7 @@ export const projects = [
     tags: [
       "Flutter",
       "Firebase",
-      "Firbase Cloud",
+      "Firebase Cloud",
       "Data Fetching",
       "Form Validation",
       "Flutter Widgets",
@@ -274,26 +274,12 @@ export const projects = [
     description:
       "I developed this Flutter application utilizing Flutter, widgets, and data fetching from the internet through APIs. This project simply fetchs data from API's.",
 
-    tags: ["Flutter", "FLuter Container", "Flutter Widgets", "Dart", "API's"],
+    tags: ["Flutter", "Flutter Container", "Flutter Widgets", "Dart", "API's"],
     category: "android app",
     github: "https://github.com/sanjeevgangwar/API-Testing",
     // webapp: "https://trackify.duckdns.org",
   },
-  {
-    id: 10,
-    title: "Job Finding App",
-    date: "Jun 2023 - Jul 2023",
-    description:
-      "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
-
-    // image:
-    //   "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-    tags: ["React Native", "JavaScript", "Axios"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Job-finder-App",
-    webapp: "https://github.com/rishavchanda/Job-finder-App",
-  },
-
+  
   {
     id: 6,
     title: "Blood Bank Management System",
