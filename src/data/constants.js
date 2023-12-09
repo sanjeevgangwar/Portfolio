@@ -188,17 +188,17 @@ export const education = [
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQOzDl-VRKs4MpU_ra-iNut0kg9U2sPVd0FyfdWoSCalwHp4FGEFHDM57WRNaUXvVVRq8&usqp=CAU",
     school:
       "Chiraunji Lal Virendra Pal Sarasvati Vidhya Mandir Inter College, Pilibhit UP.",
-    date: "Apr 2017 - Apr 2019",
+    date: "Apr 2018 - Apr 2019",
     grade: "65.2%",
     desc: "I completed my class 10 education at Chiraunji Lal Virendra Pal Sarasvati Vidhya Mandir Inter College, Pilibhit, where I studied Science with PCM",
-    degree: "UP Board(X), Science with PCM",
+    degree: "UP Board(XII), Science with PCM",
   },
   {
     id: 3,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQOzDl-VRKs4MpU_ra-iNut0kg9U2sPVd0FyfdWoSCalwHp4FGEFHDM57WRNaUXvVVRq8&usqp=CAU",
     school:
       "Chiraunji Lal Virendra Pal Sarasvati Vidhya Mandir Inter College, Pilibhit UP.",
-    date: "Apr 2016 - Apr 2017",
+    date: "Apr 2017 - Apr 2018",
     grade: "76%",
     desc: "I completed my class 10 education at Chiraunji Lal Virendra Pal Sarasvati Vidhya Mandir Inter College, Pilibhit, where I studied Science with PCM",
     degree: "UP Board(X), Science with PCM",
@@ -217,7 +217,7 @@ export const projects = [
     tags: ["JavaScrip", "HTML", "Css", "JavaScript Libraries"],
     category: "web app",
     github: "https://github.com/sanjeevgangwar/Portfolio",
-    // webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
+    webapp: "https://sanjeevgangwar.github.io/Portfolio/",
   },
 
   {
