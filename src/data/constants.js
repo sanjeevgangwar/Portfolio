@@ -190,7 +190,7 @@ export const education = [
       "Chiraunji Lal Virendra Pal Sarasvati Vidhya Mandir Inter College, Pilibhit UP.",
     date: "Apr 2018 - Apr 2019",
     grade: "65.2%",
-    desc: "I completed my class 10 education at Chiraunji Lal Virendra Pal Sarasvati Vidhya Mandir Inter College, Pilibhit, where I studied Science with PCM",
+    desc: "I completed my class 12th education at Chiraunji Lal Virendra Pal Sarasvati Vidhya Mandir Inter College, Pilibhit, where I studied Science with PCM",
     degree: "UP Board(XII), Science with PCM",
   },
   {
@@ -200,7 +200,7 @@ export const education = [
       "Chiraunji Lal Virendra Pal Sarasvati Vidhya Mandir Inter College, Pilibhit UP.",
     date: "Apr 2017 - Apr 2018",
     grade: "76%",
-    desc: "I completed my class 10 education at Chiraunji Lal Virendra Pal Sarasvati Vidhya Mandir Inter College, Pilibhit, where I studied Science with PCM",
+    desc: "I completed my class 10th education at Chiraunji Lal Virendra Pal Sarasvati Vidhya Mandir Inter College, Pilibhit, where I studied Science with PCM",
     degree: "UP Board(X), Science with PCM",
   },
 ];
