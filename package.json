@@ -1,7 +1,7 @@
 {
-  "name": "MyPortfolio",
+  "name": "myportfolio",
   "version": "0.1.0",
-  "homepage": "https://sanjeevgangwar.github.io/Portfolio",
+  "homepage": "https://sanjeevgangwar.github.io",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
