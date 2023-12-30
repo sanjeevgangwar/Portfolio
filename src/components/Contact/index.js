@@ -1,5 +1,4 @@
-/* eslint-disable no-unused-vars */
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
@@ -137,23 +136,6 @@ const Contact = () => {
   const [open, setOpen] = React.useState(false);
   const form = useRef();
 
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-
-  const emailValidation = () => {
-    const regEx = /[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,8}(.[a-z{2,8}])?/g;
-    if (regEx.test(email)) {
-      setMessage("Email is Valid");
-    } else if (!regEx.test(email) && email !== "") {
-      setMessage("Email is Not Valid");
-    } else {
-      setMessage("");
-    }
-  };
-  const handleOnChange = (e) => {
-    setEmail(e.target.value);
-  };
-
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs
@@ -181,35 +163,18 @@ const Contact = () => {
         <Desc>
           Feel free to reach out to me for any questions or opportunities!
         </Desc>
-        <ContactForm ref={form} onSubmit={handleOnChange}>
+        <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput
-            placeholder="Your Email"
-            name="from_email"
-            autoComplete="off"
-            value={email}
-            onChange={handleSubmit}
-          />
-          <ContactInput
-            placeholder="Your Name"
-            name="from_name"
-            required
-            autoComplete="off"
-          />
-          <ContactInput
-            placeholder="Subject"
-            name="subject"
-            required
-            autoComplete="off"
-          />
+          <ContactInput placeholder="Your Email" name="from_email" required />
+          <ContactInput placeholder="Your Name" name="from_name" required />
+          <ContactInput placeholder="Subject" name="subject" required />
           <ContactInputMessage
             placeholder="Message"
             rows="4"
             name="message"
             required
-            autoComplete="off"
           />
-          <ContactButton type="submit" value="Send" onClick={emailValidation} />
+          <ContactButton type="submit" value="Send" />
         </ContactForm>
         <Snackbar
           open={open}

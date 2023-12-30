@@ -1,5 +1,6 @@
 import { Link as LinkR } from 'react-router-dom';
 import styled from 'styled-components';
+// eslint-disable-next-line no-unused-vars
 import _default from '../../themes/default';
 
 export const Nav = styled.div`
