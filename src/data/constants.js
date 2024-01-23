@@ -125,7 +125,7 @@ export const skills = [
     skills: [
       {
         name: "Git",
-        
+
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1024px-Git_icon.svg.png",
       },
@@ -216,10 +216,29 @@ export const projects = [
       "As a dedicated and versatile professional, my portfolio showcases a diverse range of projects that highlight my skills such as Java, C++ etc. Leveraging a strong foundation in Flutter Development and reactJs Development, I have successfully delivered impactful solutions that demonstrate both creativity and technical proficiency.",
     // image:
     //   "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
-    tags: ["JavaScrip", "HTML", "Css", "JavaScript Libraries"],
+    tags: [
+      "JavaScript",
+      "JavaScript Libraries",
+      "HTML",
+      "Css",
+      "Data fetching through API's",
+    ],
     category: "web app",
     github: "https://github.com/sanjeevgangwar/Portfolio",
     webapp: "https://sanjeevgangwar.github.io/Portfolio/",
+  },
+  {
+    id: 8,
+    title: "Todo-List",
+    date: "Jan 2024 - Jan 2024",
+    description:
+      "This is a web application that manages users' daily life tasks. Users can perform various operations such as deleting items, editing item names, and removing all items from the list. Local storage provides data stability; when you close the tab and browser, the data items will remain the same until you delete them.",
+    // image:
+    //   "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
+    tags: ["JavaScrip", "HTML", "Css", "JavaScript Libraries", "Local Storage"],
+    category: "web app",
+    github: "https://github.com/sanjeevgangwar/Todo-List",
+    webapp: "https://sanjeevgangwar.github.io/Todo-List/",
   },
 
   {
@@ -281,19 +300,20 @@ export const projects = [
     github: "https://github.com/sanjeevgangwar/API-Testing",
     // webapp: "https://trackify.duckdns.org",
   },
-  
+
   {
     id: 6,
     title: "Blood Bank Management System",
     date: "Sept 2021 - Nov 2021",
     description:
       "Developed a comprehensive Blood Bank Management System as a part of a team project. The system was designed to efficiently manage and streamline blood donation processes. This web-based application incorporated user-friendly interfaces for both donors and administrators, ensuring a seamless experience.",
-    // image:
-    //   "https://github.com/sanjeevgangwar/DSVV-Application/blob/main/assets/images/main_campus.jpg",
+    image:
+      "https://drive.google.com/file/d/1Ytxqgu_oYsWWWGz1KVH0Nk5pO_tLqAbv/view?usp=drive_link",
     tags: ["Php", "HTML", "Css", "JavaScript"],
     category: "web app",
-    github: "https://github.com/sanjeevgangwar/Blood-Bank-Management-System-PHP-HTML",
-    // webapp: "https://github.com/rishavchanda/Quiz-Earn",
+    github:
+      "https://github.com/sanjeevgangwar/Blood-Bank-Management-System-PHP-HTML",
+    webapp: "https://github.com/rishavchanda/Quiz-Earn",
   },
 ];
 
