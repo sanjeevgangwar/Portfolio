@@ -214,8 +214,8 @@ export const projects = [
     date: "Dec 2023 - Dec 2023",
     description:
       "As a dedicated and versatile professional, my portfolio showcases a diverse range of projects that highlight my skills such as Java, C++ etc. Leveraging a strong foundation in Flutter Development and reactJs Development, I have successfully delivered impactful solutions that demonstrate both creativity and technical proficiency.",
-    // image:
-    //   "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
+    image:
+      "https://private-user-images.githubusercontent.com/93440963/314418434-2f2aeb81-e98a-44af-ad42-bfece4311e49.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTA5MjIyMDcsIm5iZiI6MTcxMDkyMTkwNywicGF0aCI6Ii85MzQ0MDk2My8zMTQ0MTg0MzQtMmYyYWViODEtZTk4YS00NGFmLWFkNDItYmZlY2U0MzExZTQ5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMjAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzIwVDA4MDUwN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTE0MmQ3MDdhNWI1NmUyYzkzOTkxZjc0MTZhNWMyZDExYTBhYjU4NzJkMjgzN2ZhOWU4M2E2Y2NmNWRlNDNhZjcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.2LKq10awZ2j0taFcuoQ_P924F15e8eiwrg01re6t98E",
     tags: [
       "JavaScript",
       "JavaScript Libraries",
