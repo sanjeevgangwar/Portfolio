@@ -303,8 +303,7 @@ export const projects = [
     date: "Sept 2021 - Nov 2021",
     description:
       "Developed a comprehensive Blood Bank Management System as a part of a team project. The system was designed to efficiently manage and streamline blood donation processes. This web-based application incorporated user-friendly interfaces for both donors and administrators, ensuring a seamless experience.",
-    image:
-      "https://drive.google.com/file/d/1Ytxqgu_oYsWWWGz1KVH0Nk5pO_tLqAbv/view?usp=drive_link",
+    
     tags: ["Php", "HTML", "Css", "JavaScript"],
     category: "web app",
     github:
